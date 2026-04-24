@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fdf6f0;
+    color: #333;
+}
+
+header {
+    background: #6a1b9a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #f3e5f5;
+}
+
+.featured {
+    padding: 30px;
+    text-align: center;
+}
+
+.poem {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.poem-card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
