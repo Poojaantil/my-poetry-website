@@ -1,0 +1,92 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+/* HEADER / NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    font-size: 28px;
+    color: #00e6e6;
+}
+
+header p {
+    font-size: 14px;
+    color: #b2dfdb;
+}
+
+/* NAVIGATION */
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00e6e6;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: radial-gradient(circle, rgba(0,255,255,0.2), transparent);
+}
+
+.hero h2 {
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #b2dfdb;
+}
+
+/* FEATURED POEM */
+.featured {
+    padding: 50px;
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 20px;
+}
+
+.poem {
+    font-style: italic;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
